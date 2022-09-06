@@ -123,33 +123,33 @@
 
             <li class="dropdown notification-list">
                 <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                    <img src="assets-template/assets/images/users/user-1.jpg" alt="user-image" class="rounded-circle">
+                    <img src="assets/imagenes/imprimete.png" alt="" class="rounded-circle">
                     <span class="pro-user-name ml-1">
-                        Nowak <i class="mdi mdi-chevron-down"></i> 
+                        Imprimetea_Color <i class="mdi mdi-chevron-down"></i> 
                     </span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                     <!-- item-->
                     <div class="dropdown-header noti-title">
-                        <h6 class="text-overflow m-0">Welcome !</h6>
+                        <h6 class="text-overflow m-0">Bienvenidos</h6>
                     </div>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <i class="fe-user"></i>
-                        <span>My Account</span>
+                        <span>Mi Cuenta</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <i class="fe-settings"></i>
-                        <span>Settings</span>
+                        <span>Configuraciones</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <i class="fe-lock"></i>
-                        <span>Lock Screen</span>
+                        <span>Bloquear Pantalla</span>
                     </a>
 
                     <div class="dropdown-divider"></div>
@@ -157,17 +157,12 @@
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <i class="fe-log-out"></i>
-                        <span>Logout</span>
+                        <span>Cerrar Sesión</span>
                     </a>
 
                 </div>
             </li>
 
-            <li class="dropdown notification-list">
-                <a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect">
-                    <i class="fe-settings noti-icon"></i>
-                </a>
-            </li>
 
         </ul>
 
@@ -175,7 +170,7 @@
         <div class="logo-box">
             <a href="index.html" class="logo logo-light">
                 <span class="logo-lg">
-                    <img src="assets-template/assets/images/logo-light.png" alt="" height="16">
+                    <img src="assets/imagenes/IMPRIMETE-A-COLOR.png" alt="" height="60">
                 </span>
                 <span class="logo-sm">
                     <img src="assets-template/assets/images/logo-sm.png" alt="" height="24">
