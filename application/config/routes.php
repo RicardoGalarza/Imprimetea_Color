@@ -6,7 +6,7 @@ $route['categorias'] = 'CategoriasController/vista_categorias';
 $route['productos'] = 'ProductosController/vista_productos';
 $route['emprendimientos'] = 'EmprendimientosController/vista_emprendimientos';
 $route['direcciones'] = 'DireccionesController/vista_direcciones';
-
+$route['galeria'] = 'GaleriaController/vista_galeria';
 
 
 

@@ -12,4 +12,7 @@
         <link href="assets-template/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <!-- App Css-->
         <link href="assets-template/assets/css/app.min.css" id="app-stylesheet" rel="stylesheet" type="text/css" />
+         <!-- estilos Css-->
+         <link rel="stylesheet" href="assets/css/estilo.css" type="text/css">
+
 </head>

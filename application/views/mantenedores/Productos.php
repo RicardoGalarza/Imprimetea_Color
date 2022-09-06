@@ -36,8 +36,75 @@
                 </div>
                 <!-- end page title -->
                 
-                <button type="button" class="btn btn-dark btn-rounded width-md waves-effect waves-light">Nuevo</button>
-                <br><br>
+                <button type="button" id="btn-red" class="btn btn-pink btn-rounded width-md waves-effect waves-light" data-toggle="modal" data-target="#myModal">Nuevo</button>
+                <br><br><br>
+          
+                                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;" id="myModal">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="myLargeModalLabel">Nuevo Cliente</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                </div>
+                                                <br>
+
+                                                <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="nombre">Nombre</label>
+                                                    <div class="col-md-10">
+                                                        <input type="email" id="nombre" name="nombre" class="form-control" placeholder="">
+                                                    </div>
+                                                    <br>
+                                                </div>
+                                                
+                                                <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="precio">Precio</label>
+                                                    <div class="col-md-10">
+                                                        <input type="" id="precio" name="precio" class="form-control" value="">
+                                                    </div>
+                                                    <br>
+                                                </div>
+
+                                                <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="stock/Cantidad">Stock/Cantidad</label>
+                                                    <div class="col-md-10">
+                                                        <input type="" id="stock/Cantidad" name="stock/Cantidad" class="form-control" value="">
+                                                    </div>
+                                                 </div>
+
+                                                 <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="costo">Costo</label>
+                                                    <div class="col-md-10">
+                                                        <input type="" id="costo" name="costo" class="form-control" value="">
+                                                    </div>
+                                                 </div>
+
+                                                 <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="descripción">Descripción</label>
+                                                    <div class="col-md-10">
+                                                        <input type="" id="descripción" name="descripción" class="form-control" value="">
+                                                    </div>
+                                                 </div>
+
+                                                 <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="foto">Foto</label>
+                                                    <div class="col-md-10">
+                                                        <input type="file" id="foto" name="foto" class="form-control" value="">
+                                                    </div>
+                                                 </div>
+
+                                                 <div class="form-group row col-md-12">
+                                                     <label class="col-md-2 col-form-label"></label>
+                                                     <div class="col-md-10">
+                                                         <center>
+                                                          <button type="button" class="btn-modern">Guardar</button>
+                                                         </center>
+                                                         <br>
+                                                     </div>
+                                                 </div>
+
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
           
           
           
@@ -81,11 +148,11 @@
                                                 <td>16:28:00 2022-08-30</td>
                                                 <td>
 
-                                                <button type="button" class="btn btn-success  waves-effect "><i class="fas fa-pencil-alt"></i></button>
+                                                <button  type="button" class="btn btn-success btn-sm   waves-effect "><i class="fas fa-pencil-alt"></i></button>
 
-                                                <button type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
+                                                <button  type="button" class="btn btn-danger btn-sm  waves-effect "><i class="fe-trash-2"></i></button> 
 
-                                                <button type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
+                                                <button  type="button" class="btn btn-primary btn-sm waves-effect "><i class=" dripicons-preview"></i></button>
                                                 
                                                  </td>
                                             </tr>
@@ -100,11 +167,11 @@
                                                 <td>2022-08-30</td>
                                                 <td>16:28:00 2022-08-30</td>
                                                 <td>
-                                                <button  type="button" class="btn btn-success   waves-effect "><i class="fas fa-pencil-alt"></i></button>
+                                                <button  type="button" class="btn btn-success btn-sm   waves-effect "><i class="fas fa-pencil-alt"></i></button>
 
-                                                <button  type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
+                                                <button  type="button" class="btn btn-danger btn-sm  waves-effect "><i class="fe-trash-2"></i></button> 
 
-                                                <button  type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
+                                                <button  type="button" class="btn btn-primary btn-sm waves-effect "><i class=" dripicons-preview"></i></button>
                                                 
                                             </td>
                                             </tr>
@@ -113,8 +180,8 @@
                                         </table>
                                     </div>
                                     
+                                    
                                 </div>
-
                             </div>
 
                         </div>
