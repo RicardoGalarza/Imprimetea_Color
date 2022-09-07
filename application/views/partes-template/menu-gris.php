@@ -14,8 +14,8 @@
                 </a>
                 <!-- End mobile menu toggle-->
             </li>
-
             <li class="d-none d-sm-block">
+
                 <form class="app-search">
                     <div class="app-search-box">
                         <div class="input-group">
@@ -42,7 +42,7 @@
                         <h5 class="m-0">
                             <span class="float-right">
                                 <a href="" class="text-dark">
-                                    <small>Clear All</small>
+                                    <small>Limpiar Todo</small>
                                 </a>
                             </span>Notification
                         </h5>

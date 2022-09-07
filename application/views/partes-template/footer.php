@@ -3,7 +3,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
-                       2022 - 2023 &copy; Imprimetea-Color <a href="">SPA</a> 
+                     &copy; Imprimetea-Color | 2023 | Todos los derechos reservados</a> 
                     </div>
                     <div class="col-md-6">
                         <div class="text-md-right footer-links d-none d-sm-block">
