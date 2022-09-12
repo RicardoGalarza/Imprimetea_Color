@@ -51,7 +51,7 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="nombre">Nombre</label>
                                                     <div class="col-md-10">
-                                                        <input type="email" id="nombre" name="nombre" class="form-control" placeholder="">
+                                                        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="">
                                                     </div>
                                                     <br>
                                                 </div>
@@ -59,7 +59,7 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="precio">Precio</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="precio" name="precio" class="form-control" value="">
+                                                        <input type="text" id="precio" name="precio" class="form-control" value="">
                                                     </div>
                                                     <br>
                                                 </div>
@@ -67,28 +67,28 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="stock/Cantidad">Stock/Cantidad</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="stock/Cantidad" name="stock/Cantidad" class="form-control" value="">
+                                                        <input type="text" id="stock/Cantidad" name="stock/Cantidad" class="form-control" value="">
                                                     </div>
                                                  </div>
 
                                                  <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="costo">Costo</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="costo" name="costo" class="form-control" value="">
+                                                        <input type="text" id="costo" name="costo" class="form-control" value="">
                                                     </div>
                                                  </div>
 
                                                  <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="descripción">Descripción</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="descripción" name="descripción" class="form-control" value="">
+                                                        <input type="text" id="descripción" name="descripción" class="form-control" value="">
                                                     </div>
                                                  </div>
 
                                                  <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="foto">Foto</label>
                                                     <div class="col-md-10">
-                                                        <input type="file" id="foto" name="foto" class="form-control" value="">
+                                                        <input type="text" id="foto" name="foto" class="form-control" value="">
                                                     </div>
                                                  </div>
 
@@ -212,6 +212,8 @@
 
 <!-- App js -->
 <script src="assets-template/assets/js/app.min.js"></script>
+
+
 
 </body>
 </html>

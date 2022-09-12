@@ -125,11 +125,7 @@
                                             <tr>
                                                 <th>Emprendimiento</th>
                                                 <th>Cliente</th>
-                                                <th>Nombre</th>
                                                 <th>Whatsapp</th>
-                                                <th>Instagram</th>
-                                                <th>Facebook</th>
-                                                <th>Pagina Wed</th>
                                                 <th>created_at</th>
                                                 <th>updated_at</th>
                                                 <th>Acción</th>
@@ -137,44 +133,35 @@
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <th scope="row">Imprimetea_Color</th>
-                                                <th>Ricardo</th>
+                                                <td scope="row">Imprimete_acolor</td>
                                                 <td>Ricardo Galarza</td>
                                                 <td>998630571</td>
-                                                <td>https://www.instagram.com/_digitalhouse/?hl=es</td>
-                                                <td>https://www.facebook.com/ricardo.galarza.507/</td>
-                                                <th>https://www.innovafirst.com/</th>
                                                 <td>2022-08-30</td>
                                                 <td>16:28:00 2022-08-30</td>
                                                
                                                 <td>
 
-                                                <button type="button" class="btn btn-success  waves-effect "><i class="fas fa-pencil-alt"></i></button>
+                                                <button  type="button" class="btn btn-success btn-sm   waves-effect "><i class="fas fa-pencil-alt"></i></button>
 
-                                                <button type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
+                                                <button  type="button" class="btn btn-danger btn-sm  waves-effect "><i class="fe-trash-2"></i></button> 
 
-                                                <button type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
+                                                <button  type="button" class="btn btn-primary btn-sm waves-effect "><i class=" dripicons-preview"></i></button>
                                                  </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">Imprimetea_Color</th>
-                                                <th>Ricardo</th>
+                                                <td scope="row">Imprimete_acolor</td>
                                                 <td>Ricardo Galarza</td>
                                                 <td>998630571</td>
-                                                <td>https://www.instagram.com/_digitalhouse/?hl=es</td>
-                                                <td>https://www.facebook.com/ricardo.galarza.507/</td>
-                                                <th>https://www.innovafirst.com/</th>
                                                 <td>2022-08-30</td>
                                                 <td>16:28:00 2022-08-30</td>
                                                 
                                                 <td>
                                                     
-                                                <button  type="button" class="btn btn-success   waves-effect "><i class="fas fa-pencil-alt"></i></button>
+                                                <button  type="button" class="btn btn-success btn-sm   waves-effect "><i class="fas fa-pencil-alt"></i></button>
 
-                                                <button  type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
+                                                <button  type="button" class="btn btn-danger btn-sm  waves-effect "><i class="fe-trash-2"></i></button> 
 
-                                                <button  type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
+                                                <button  type="button" class="btn btn-primary btn-sm waves-effect "><i class=" dripicons-preview"></i></button>
                                                 
                                             </td>
                                             </tr>

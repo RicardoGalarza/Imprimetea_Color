@@ -2698,7 +2698,7 @@ body[data-layout="horizontal"] #message {
   min-height: 100px; }
 
 body.authentication-bg {
-  background-image: url("../images/big/bg-light-img.jpg");
+  background-image: url("../images/big/fondo.png");
   background-size: cover;
   background-position: center; }
 

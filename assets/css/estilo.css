@@ -27,7 +27,7 @@
 
 
 
-#btn-red {
+.btn-red {
     padding: 0;
     margin: 0;
     justify-content: center;
@@ -42,7 +42,7 @@
     float: left;
 }
 
-#btn-red:hover {
+.btn-red:hover {
     transform: translateY(-5px);
     background-color: rgb(233, 11, 174);
     color: white;

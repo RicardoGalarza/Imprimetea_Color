@@ -13,7 +13,7 @@ class ProductosController extends CI_Controller {
 
 	public function vista_productos()
 	{
-		$this->load->view('mantenedores/Productos.php');
+		$this->load->view('mantenedores/Productos');
 	}
 
 	

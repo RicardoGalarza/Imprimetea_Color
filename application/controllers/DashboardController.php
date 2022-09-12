@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class EmprendimientosController extends CI_Controller {
+class DashboardController extends CI_Controller {
 
 	public function __construct()
     {
@@ -11,9 +11,9 @@ class EmprendimientosController extends CI_Controller {
 
 
 
-	public function vista_emprendimientos()
+	public function vista_dashboard()
 	{
-		$this->load->view('mantenedores/Emprendimientos');
+		$this->load->view('Dashboard');
 	}
 
 	

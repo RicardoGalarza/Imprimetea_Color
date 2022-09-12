@@ -36,14 +36,14 @@
                 </div>
                 <!-- end page title -->
                 
-                <button type="button" id="btn-red" class="btn btn-pink btn-rounded width-md waves-effect waves-light" data-toggle="modal" data-target="#myModal">Nuevo</button>
+                <button type="button" id="" class="btn-red btn btn-pink btn-rounded width-md waves-effect waves-light" data-toggle="modal" data-target="#modal_crear_cliente">Nuevo</button>
                 <br><br><br>
           
-                                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;" id="myModal">
+                                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;" id="modal_crear_cliente">
                                         <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h4 class="modal-title" id="myLargeModalLabel">Nuevo Cliente</h4>
+                                                    <h4 class="modal-title" id="myLargeModalLabel">Cliente</h4>
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                                 </div>
                                                 <br>
@@ -55,11 +55,19 @@
                                                     </div>
                                                     <br>
                                                 </div>
+
+                                                <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="rut">Rut</label>
+                                                    <div class="col-md-10">
+                                                        <input type="email" id="rut" name="rut" class="form-control" placeholder="">
+                                                    </div>
+                                                    <br>
+                                                </div>
                                                 
                                                 <div class="form-group row col-md-12">
-                                                    <label class="col-md-2 col-form-label" for="teléfono">Teléfono</label>
+                                                    <label class="col-md-2 col-form-label" for="telefono">Teléfono</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="teléfono" name="teléfono" class="form-control" value="">
+                                                        <input type="" id="telefono" name="telefono" class="form-control" value="">
                                                     </div>
                                                     <br>
                                                 </div>
@@ -75,7 +83,7 @@
                                                      <label class="col-md-2 col-form-label"></label>
                                                      <div class="col-md-10">
                                                          <center>
-                                                          <button type="button" class="btn-modern">Guardar</button>
+                                                          <button type="button" id="crear_cliente" class="btn-modern">Guardar</button>
                                                          </center>
                                                          <br>
                                                      </div>
@@ -186,6 +194,9 @@
 
 <!-- App js -->
 <script src="assets-template/assets/js/app.min.js"></script>
+
+<!-- clientes -->
+<script src="assets/js/clientes.js"></script>
 
 </body>
 </html>

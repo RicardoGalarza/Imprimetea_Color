@@ -13,7 +13,7 @@ class GaleriaController extends CI_Controller {
 
 	public function vista_galeria()
 	{
-		$this->load->view('mantenedores/Galeria.php');
+		$this->load->view('mantenedores/Galeria');
 	}
 
 	
