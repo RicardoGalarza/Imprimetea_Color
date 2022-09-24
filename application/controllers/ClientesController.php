@@ -36,6 +36,18 @@ class ClientesController extends CI_Controller {
 		echo json_encode($resultado);
 	}
 
+
+	public function listar_clientes()
+	
+	
+	{
+		
+		$resultado = $this->ClientesModel->listar_clientes();
+
+		echo json_encode($resultado);
+
+	}
+
 	}
 
 	

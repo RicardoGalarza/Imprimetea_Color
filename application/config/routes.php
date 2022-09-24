@@ -22,6 +22,14 @@ $route['dashboard'] = 'DashboardController/vista_dashboard';
 $route['crear_categoria'] = 'CategoriasController/crear_categoria';
 $route['crear_cliente'] = 'ClientesController/crear_cliente';
 $route['crear_direccion'] = 'DireccionesController/crear_direccion';
+$route['crear_emprendimiento'] = 'EmprendimientosController/crear_emprendimiento';
+$route['crear_producto'] = 'ProductosController/crear_producto';
+
+// funciones//
+$route['listar_categorias'] = 'CategoriasController/listar_categorias';
+$route['listar_clientes'] = 'ClientesController/listar_clientes';
+$route['listar_emprendimientos'] = 'EmprendimientosController/listar_emprendimientos';
+$route['listar_direcciones'] = 'DireccionesController/listar_direcciones';
 
 
 

@@ -16,4 +16,14 @@ class ClientesModel extends CI_Model {
     }
 
 
+     public function listar_clientes(){
+      $this->db->select("*");
+      $this->db->from("clientes");
+      return $this->db->get()->result();
+
+
+
+    }
+
+
 }

@@ -33,6 +33,18 @@ class CategoriasController extends CI_Controller {
 	}
 
 	
+	
+	
+	public function listar_categorias()
+	
+	
+	{
+		
+		$resultado = $this->CategoriasModel->listar_categorias();
+
+		echo json_encode($resultado);
+
+	}
 
 
 

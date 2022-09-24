@@ -51,7 +51,7 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="nombre">Nombre</label>
                                                     <div class="col-md-10">
-                                                        <input type="email" id="nombre" name="nombre" class="form-control" placeholder="">
+                                                        <input type="nombre" id="nombre" name="nombre" class="form-control" placeholder="">
                                                     </div>
                                                     <br>
                                                 </div>
@@ -59,7 +59,7 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="rut">Rut</label>
                                                     <div class="col-md-10">
-                                                        <input type="email" id="rut" name="rut" class="form-control" placeholder="">
+                                                        <input type="rut" id="rut" name="rut" class="form-control" placeholder="">
                                                     </div>
                                                     <br>
                                                 </div>
@@ -67,15 +67,15 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="telefono">Teléfono</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="telefono" name="telefono" class="form-control" value="">
+                                                        <input type="telefono" id="telefono" name="telefono" class="form-control" value="">
                                                     </div>
                                                     <br>
                                                 </div>
 
                                                 <div class="form-group row col-md-12">
-                                                    <label class="col-md-2 col-form-label" for="teléfono">Email</label>
+                                                    <label class="col-md-2 col-form-label" for="email">Email</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="email" name="email" class="form-control" value="">
+                                                        <input type="email" id="email" name="email" class="form-control" value="">
                                                     </div>
                                                  </div>
 
@@ -107,7 +107,7 @@
                                             <thead>
                                             <tr>
                                                
-                                                <th>Cliente</th>
+                                                
                                                 <th>Nombre</th>
                                                 <th>Rut</th>
                                                 <th>Teléfono</th>
@@ -117,44 +117,9 @@
                                                 <th>Acción</th>
                                             </tr>
                                             </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">Ricardo</th>
-                                                <td>Ricardo Galarza</td>
-                                                <td>20.456.543-2</td>
-                                                <td>998630571</td>
-                                                <td>ricardo@gmail.com</td>
-                                                <td>2022-08-30</td>
-                                                <td>16:28:00 2022-08-30</td>
-                                               
-                                                <td>
-
-                                                <button type="button" class="btn btn-success  waves-effect "><i class="fas fa-pencil-alt"></i></button>
-
-                                                <button type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
-
-                                                <button type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
-                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Marío</th>
-                                                <td>Marío Morales</td>
-                                                <td>11.516.359-0</td>
-                                                <td>996923494</td>
-                                                <td>mario@gmail.com</td>
-                                                <td>2022-08-30</td>
-                                                <td>16:28:00 2022-08-30</td>
-                                                
-                                                <td>
-                                                <button  type="button" class="btn btn-success   waves-effect "><i class="fas fa-pencil-alt"></i></button>
-
-                                                <button  type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
-
-                                                <button  type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
-                                            </td>
-                                            </tr>
+                                            <tbody id="body_tabla_clientes">
+                                            
+                                            
                                            
                                             </tbody>
                                         </table>

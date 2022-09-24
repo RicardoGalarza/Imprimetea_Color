@@ -101,36 +101,8 @@
                                                 <th>Acción</th>
                                             </tr>
                                             </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td scope="row">Fiesta</td>
-                                                <td>Pack completo</td>
-                                                <td>2022-08-30</td>
-                                                <td>16:28:00 2022-08-30</td>
-                                                <td>
-
-                                                <button type="button" class="btn btn-success  waves-effect "><i class="fas fa-pencil-alt"></i></button>
-
-                                                <button type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
-
-                                                <button type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
-                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Emprendedor</th>
-                                                <td>Pack Emprendedor</td>
-                                                <td>2022-08-30</td>
-                                                <td>16:28:00 2022-08-30</td>
-                                                <td>
-                                                <button  type="button" class="btn btn-success   waves-effect "><i class="fas fa-pencil-alt"></i></button>
-
-                                                <button  type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
-
-                                                <button  type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
-                                            </td>
-                                            </tr>
+                                            <tbody id="body_tabla_categorias">
+                                            
                                            
                                             </tbody>
                                         </table>

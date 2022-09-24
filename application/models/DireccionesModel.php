@@ -16,4 +16,15 @@ class DireccionesModel extends CI_Model {
     }
 
 
+    public function listar_direcciones(){
+      $this->db->select("*");
+      $this->db->from("direcciones");
+      return $this->db->get()->result();
+
+
+
+    }
+
+
+
 }

@@ -36,14 +36,14 @@
                 </div>
                 <!-- end page title -->
                 
-                <button type="button" id="btn-red" class="btn btn-pink btn-rounded width-md waves-effect waves-light" data-toggle="modal" data-target="#myModal">Nuevo</button>
+                <button type="button" id="" class="btn-red btn btn-pink btn-rounded width-md waves-effect waves-light" data-toggle="modal" data-target="#modal_crear_producto">Nuevo</button>
                 <br><br><br>
           
-                                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;" id="myModal">
+                                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;" id="modal_crear_producto">
                                         <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h4 class="modal-title" id="myLargeModalLabel">Nuevo Cliente</h4>
+                                                    <h4 class="modal-title" id="myLargeModalLabel">Produtos</h4>
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                                 </div>
                                                 <br>
@@ -65,9 +65,9 @@
                                                 </div>
 
                                                 <div class="form-group row col-md-12">
-                                                    <label class="col-md-2 col-form-label" for="stock/Cantidad">Stock/Cantidad</label>
+                                                    <label class="col-md-2 col-form-label" for="stock_cantidad">Stock_Cantidad</label>
                                                     <div class="col-md-10">
-                                                        <input type="text" id="stock/Cantidad" name="stock/Cantidad" class="form-control" value="">
+                                                        <input type="text" id="stock_cantidad" name="stock_cantidad" class="form-control" value="">
                                                     </div>
                                                  </div>
 
@@ -79,9 +79,9 @@
                                                  </div>
 
                                                  <div class="form-group row col-md-12">
-                                                    <label class="col-md-2 col-form-label" for="descripción">Descripción</label>
+                                                    <label class="col-md-2 col-form-label" for="descripcion">Descripción</label>
                                                     <div class="col-md-10">
-                                                        <input type="text" id="descripción" name="descripción" class="form-control" value="">
+                                                        <input type="text" id="descripcion" name="descripcion" class="form-control" value="">
                                                     </div>
                                                  </div>
 
@@ -96,7 +96,7 @@
                                                      <label class="col-md-2 col-form-label"></label>
                                                      <div class="col-md-10">
                                                          <center>
-                                                          <button type="button" class="btn-modern">Guardar</button>
+                                                          <button type="button" id="crear_producto" class="btn-modern">Guardar</button>
                                                          </center>
                                                          <br>
                                                      </div>
@@ -213,6 +213,8 @@
 <!-- App js -->
 <script src="assets-template/assets/js/app.min.js"></script>
 
+<!-- productos -->
+<script src="assets/js/productos.js"></script>
 
 
 </body>

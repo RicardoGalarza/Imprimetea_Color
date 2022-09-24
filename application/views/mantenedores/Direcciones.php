@@ -51,7 +51,7 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="ciudad">Ciudad</label>
                                                     <div class="col-md-10">
-                                                        <input type="email" id="ciudad" name="ciudad" class="form-control" placeholder="">
+                                                        <input type="text" id="ciudad" name="ciudad" class="form-control" placeholder="">
                                                     </div>
                                                     <br>
                                                 </div>
@@ -59,7 +59,7 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="direccion">Dirección</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="direccion" name="direccion" class="form-control" value="">
+                                                        <input type="text" id="direccion" name="direccion" class="form-control" value="">
                                                     </div>
                                                     <br>
                                                 </div>
@@ -67,14 +67,14 @@
                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="numero_casa">Numero de Casa</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="numero_casa" name="numero_casa" class="form-control" value="">
+                                                        <input type="text" id="numero_casa" name="numero_casa" class="form-control" value="">
                                                     </div>
                                                  </div>
 
                                                  <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="agencia_preferida">Agencia preferida</label>
                                                     <div class="col-md-10">
-                                                        <input type="" id="agencia_preferida" name="agencia_preferida" class="form-control" value="">
+                                                        <input type="text" id="agencia_preferida" name="agencia_preferida" class="form-control" value="">
                                                     </div>
                                                  </div>
 
@@ -119,40 +119,9 @@
                                                 <th>Acción</th>
                                             </tr>
                                             </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">Santiago</th>
-                                                <td>Las Condes</td>
-                                                <td>431</td>
-                                                <td>starken</td>
-                                                <td>2022-08-30</td>
-                                                <td>16:28:00 2022-08-30</td>
-                                                <td>
-
-                                                <button type="button" class="btn btn-success  waves-effect "><i class="fas fa-pencil-alt"></i></button>
-
-                                                <button type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
-
-                                                <button type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
-                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Talca</th>
-                                                <td>8 sur con 34 media oriente</td>
-                                                <td>431</td>
-                                                <td>starken</td>
-                                                <td>2022-08-30</td>
-                                                <td>16:28:00 2022-08-30</td>
-                                                <td>
-                                                <button  type="button" class="btn btn-success   waves-effect "><i class="fas fa-pencil-alt"></i></button>
-
-                                                <button  type="button" class="btn btn-danger  waves-effect "><i class="fe-trash-2"></i></button> 
-
-                                                <button  type="button" class="btn btn-primary waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
-                                            </td>
-                                            </tr>
+                                            <tbody id="body_tabla_direcciones">
+                                            
+                                            
                                            
                                             </tbody>
                                         </table>

@@ -14,6 +14,13 @@ class CategoriasModel extends CI_Model {
         return $this->db->insert("categorias", $data);
 
     }
+     
+    public function listar_categorias(){
+      $this->db->select("*");
+      $this->db->from("categorias");
+      return $this->db->get()->result();
 
+
+    }
 
 }

@@ -22,6 +22,7 @@ class DireccionesController extends CI_Controller {
 		$direccion = $this->input->post("dato_direccion");
 		$numero_casa = $this->input->post("dato_numero_casa");
 		$agencia_preferida = $this->input->post("dato_agencia_preferida");
+		$ciudad = $this->input->post("dato_ciudad");
 
 		$data = array(
             "ciudad" =>  $ciudad,
@@ -37,6 +38,15 @@ class DireccionesController extends CI_Controller {
 	}
 	
 
+	public function listar_direcciones()
+	
+	
+	{
+		
+		$resultado = $this->DireccionesModel->listar_direcciones();
 
+		echo json_encode($resultado);
+
+	}
 
 }
