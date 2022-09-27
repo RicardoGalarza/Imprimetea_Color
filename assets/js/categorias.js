@@ -31,6 +31,7 @@ function rellenar_categorias() {
         type: 'GET',
         dataType: 'json'
     }).then(function (resultado) {
+        $("#body_tabla_categorias").empty();
         let fila = "";
 
         $.each(resultado, function (i, c) {
@@ -96,6 +97,7 @@ $("body").on("click", "#crear_categoria", function(e) {
             if(respuesta == true){
                 $('#modal_crear_categoria').modal('hide');
                 alert("Se ha creado con éxito");
+                rellenar_categorias();
             }else{
                 alert("Ups, Ha ocurrido un error");
             }

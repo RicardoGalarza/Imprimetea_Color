@@ -57,6 +57,15 @@
                                                 </div>
                                                 
                                                 <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="nombre">Categoria</label>
+                                                    <div class="col-md-10">
+                                                        <select class="custom-select form-control" id="selector_categoria">
+                                                            
+                                                        </select>
+                                                    </div>
+                                                </div>                
+                                                
+                                                <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="precio">Precio</label>
                                                     <div class="col-md-10">
                                                         <input type="text" id="precio" name="precio" class="form-control" value="">
@@ -123,58 +132,20 @@
                                             <thead>
                                             <tr>
                                                
-                                                <th>Productos</th>
                                                 <th>Nombre</th>
                                                 <th>Precio</th>
                                                 <th>Stock/Cantidad</th>
                                                 <th>Costo</th>
                                                 <th>Descripción</th>
-                                                <th>Foto</th>
+                                               <!-- <th>Foto</th> -->
                                                 <th>created_at</th>
                                                 <th>updated_at</th>
                                                 <th>Acción</th>
                                             </tr>
                                             </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">Stikers</th>
-                                                <td>Stikers</td>
-                                                <td>cl 5.000</td>
-                                                <td>50</td>
-                                                <td>cl 1.500</td>
-                                                <td>Stiker 5x5</td>
-                                                <td></td>
-                                                <td>2022-08-30</td>
-                                                <td>16:28:00 2022-08-30</td>
-                                                <td>
-
-                                                <button  type="button" class="btn btn-success btn-sm   waves-effect "><i class="fas fa-pencil-alt"></i></button>
-
-                                                <button  type="button" class="btn btn-danger btn-sm  waves-effect "><i class="fe-trash-2"></i></button> 
-
-                                                <button  type="button" class="btn btn-primary btn-sm waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
-                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Stikers</th>
-                                                <td>Stikers</td>
-                                                <td>cl 5.000</td>
-                                                <td>50</td>
-                                                <td>cl 1.500</td>
-                                                <td>Stiker 5x5</td>
-                                                <td></td>
-                                                <td>2022-08-30</td>
-                                                <td>16:28:00 2022-08-30</td>
-                                                <td>
-                                                <button  type="button" class="btn btn-success btn-sm   waves-effect "><i class="fas fa-pencil-alt"></i></button>
-
-                                                <button  type="button" class="btn btn-danger btn-sm  waves-effect "><i class="fe-trash-2"></i></button> 
-
-                                                <button  type="button" class="btn btn-primary btn-sm waves-effect "><i class=" dripicons-preview"></i></button>
-                                                
-                                            </td>
-                                            </tr>
+                                            <tbody id="body_tabla_productos">
+                                            
+                                            
                                            
                                             </tbody>
                                         </table>
@@ -215,6 +186,8 @@
 
 <!-- productos -->
 <script src="assets/js/productos.js"></script>
+
+
 
 
 </body>

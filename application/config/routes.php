@@ -30,6 +30,7 @@ $route['listar_categorias'] = 'CategoriasController/listar_categorias';
 $route['listar_clientes'] = 'ClientesController/listar_clientes';
 $route['listar_emprendimientos'] = 'EmprendimientosController/listar_emprendimientos';
 $route['listar_direcciones'] = 'DireccionesController/listar_direcciones';
+$route['listar_productos'] = 'ProductosController/listar_productos';
 
 
 

@@ -40,8 +40,17 @@ class ProductosController extends CI_Controller {
 		echo json_encode($resultado);
 	}
 
+		
+		public function listar_productos()
 	
+	
+	{
+		
+		$resultado = $this->ProductosModel->listar_productos();
 
+		echo json_encode($resultado);
+
+	}
 
 
 }

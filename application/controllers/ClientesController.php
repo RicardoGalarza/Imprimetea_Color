@@ -21,13 +21,14 @@ class ClientesController extends CI_Controller {
 		$nombre = $this->input->post("dato_nombre");
 		$rut = $this->input->post("dato_rut");
 		$telefono = $this->input->post("dato_telefono");
-		$email = $this->input->post("dato_email");
-
+		$correo = $this->input->post("dato_correo");
+		$apellidos = $this->input->post("dato_apellidos");
 		$data = array(
-            "nombre" =>  $nombre,
+            "nombre" => $nombre,
             "rut" => $rut,
 			"telefono" => $telefono,
-			"email" => $email
+			"correo" => $correo,
+			"apellidos" => $apellidos
         );
 
 		$resultado = $this->ClientesModel->crear_cliente($data);

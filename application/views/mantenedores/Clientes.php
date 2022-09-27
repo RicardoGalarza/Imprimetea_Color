@@ -49,33 +49,41 @@
                                                 <br>
 
                                                 <div class="form-group row col-md-12">
-                                                    <label class="col-md-2 col-form-label" for="nombre">Nombre</label>
-                                                    <div class="col-md-10">
-                                                        <input type="nombre" id="nombre" name="nombre" class="form-control" placeholder="">
-                                                    </div>
-                                                    <br>
-                                                </div>
-
-                                                <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="rut">Rut</label>
                                                     <div class="col-md-10">
-                                                        <input type="rut" id="rut" name="rut" class="form-control" placeholder="">
+                                                        <input type="text" id="rut" name="rut" class="form-control" maxlength="12" placeholder="">
                                                     </div>
                                                     <br>
                                                 </div>
                                                 
                                                 <div class="form-group row col-md-12">
-                                                    <label class="col-md-2 col-form-label" for="telefono">Teléfono</label>
+                                                    <label class="col-md-2 col-form-label" for="nombre">Nombre</label>
                                                     <div class="col-md-10">
-                                                        <input type="telefono" id="telefono" name="telefono" class="form-control" value="">
+                                                        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="">
+                                                    </div>
+                                                    <br>
+                                                </div>
+                                                
+                                                <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="apellidos">Apellidos</label>
+                                                    <div class="col-md-10">
+                                                        <input type="text" id="apellidos" name="apellidos" class="form-control" placeholder="">
                                                     </div>
                                                     <br>
                                                 </div>
 
                                                 <div class="form-group row col-md-12">
-                                                    <label class="col-md-2 col-form-label" for="email">Email</label>
+                                                    <label class="col-md-2 col-form-label" for="telefono">Teléfono</label>
                                                     <div class="col-md-10">
-                                                        <input type="email" id="email" name="email" class="form-control" value="">
+                                                        <input type="text" id="telefono" name="telefono" class="form-control" value="">
+                                                    </div>
+                                                    <br>
+                                                </div>
+
+                                                <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="correo">Correo</label>
+                                                    <div class="col-md-10">
+                                                        <input type="email" id="correo" name="correo" class="form-control" value="">
                                                     </div>
                                                  </div>
 
@@ -107,14 +115,14 @@
                                             <thead>
                                             <tr>
                                                
-                                                
-                                                <th>Nombre</th>
                                                 <th>Rut</th>
+                                                <th>Nombre</th>
+                                                <th>Apellidos</th>
                                                 <th>Teléfono</th>
-                                                <th>Correo electrónico</th>
-                                                <th>created_at</th>
-                                                <th>updated_at</th>
-                                                <th>Acción</th>
+                                                <th>Correo</th>
+                                                <!--<th>created_at</th>-->
+                                                <!--<th>updated_at</th>-->
+                                                <th>Acciónes</th>
                                             </tr>
                                             </thead>
                                             <tbody id="body_tabla_clientes">
@@ -162,6 +170,9 @@
 
 <!-- clientes -->
 <script src="assets/js/clientes.js"></script>
+
+<script src="assets/js/jquery-rut.js"></script>
+
 
 </body>
 </html>
