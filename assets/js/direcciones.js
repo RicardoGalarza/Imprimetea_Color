@@ -27,6 +27,7 @@ function rellenar_direcciones() {
         type: 'GET',
         dataType: 'json'
     }).then(function (resultado) {
+    
         let fila = "";
 
         $.each(resultado, function (i, c) {
@@ -34,8 +35,9 @@ function rellenar_direcciones() {
             fila += '<tr>'
             fila += '<th scope="row">' + c.CIUDAD + '</th>'
             fila += '<td>' + c.DIRECCION + '</td>'
-            fila += '<td>' + c.NUMERO_CASA + '</td>'
-            fila += '<td>' + c.AGENCIA_PREFERIDA + '</td>'
+            fila += '<td>' + c.NUM_CASA + '</td>'
+            fila += '<td>' + c.DEPTO + '</td>'
+            fila += '<td>' + c.AGENCIA + '</td>'
             fila += '<td>' + c.CREATED_AT + '</td>'
             fila += '<td>' + c.UPDATED_AT + '</td>'
             fila += '<td>'
@@ -78,6 +80,7 @@ $("body").on("click", "#crear_direccion", function(e) {
     let ciudad =$("#ciudad").val();
     let direccion =$("#direccion").val();
     let numero_casa=$("#numero_casa").val();
+    let departamento=$("#departamento").val();
     let agencia_preferida =$("#agencia_preferida").val();
 
     console.log("la ciudad es"+ciudad);
@@ -89,11 +92,12 @@ $("body").on("click", "#crear_direccion", function(e) {
             url: 'crear_direccion',
             type: 'POST',
             dataType: 'json',
-            data: { "dato_ciudad":ciudad, "dato_direccion":direccion, "dato_numero_casa":numero_casa, "dato_agencia_preferida":agencia_preferida }
+            data: { "dato_ciudad":ciudad, "dato_direccion":direccion, "dato_numero_casa":numero_casa, "departamento":departamento, "dato_agencia_preferida":agencia_preferida }
         }).then(function(respuesta) {
             if(respuesta == true){
                 alert("Se ha creado con éxito");
                 $('#modal_crear_direccion').modal('hide');
+                
             }else{
                 alert("Ups, Ha ocurrido un error");
             }

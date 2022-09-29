@@ -20,7 +20,6 @@ create table agencias(
 create table clientes(
     ID int AUTO_INCREMENT PRIMARY KEY, 
     RUT int,
-    DV varchar(1),  
     NOMBRES varchar(200),  
     APELLIDOS varchar(200),
     TELEFONO int,

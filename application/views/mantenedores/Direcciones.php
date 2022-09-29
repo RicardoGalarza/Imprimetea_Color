@@ -72,6 +72,13 @@
                                                  </div>
 
                                                  <div class="form-group row col-md-12">
+                                                    <label class="col-md-2 col-form-label" for="departamento">Departamento</label>
+                                                    <div class="col-md-10">
+                                                        <input type="text" id="departamento" name="departamento" class="form-control" value="">
+                                                    </div>
+                                                 </div>
+
+                                                 <div class="form-group row col-md-12">
                                                     <label class="col-md-2 col-form-label" for="agencia_preferida">Agencia preferida</label>
                                                     <div class="col-md-10">
                                                         <input type="text" id="agencia_preferida" name="agencia_preferida" class="form-control" value="">
@@ -113,6 +120,7 @@
                                                 <th>Ciudad</th>
                                                 <th>Dirección</th>
                                                 <th>Numero de casa</th>
+                                                <th>Departamento</th>
                                                 <th>Agencia preferida</th>
                                                 <th>created_at</th>
                                                 <th>updated_at</th>

@@ -57,9 +57,9 @@
                                                 </div>
                                                 
                                                 <div class="form-group row col-md-12">
-                                                    <label class="col-md-2 col-form-label" for="nombre">Nombre</label>
+                                                    <label class="col-md-2 col-form-label" for="nombres">Nombres</label>
                                                     <div class="col-md-10">
-                                                        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="">
+                                                        <input type="text" id="nombres" name="nombres" class="form-control" placeholder="">
                                                     </div>
                                                     <br>
                                                 </div>
@@ -116,12 +116,12 @@
                                             <tr>
                                                
                                                 <th>Rut</th>
-                                                <th>Nombre</th>
+                                                <th>Nombres</th>
                                                 <th>Apellidos</th>
                                                 <th>Teléfono</th>
                                                 <th>Correo</th>
-                                                <!--<th>created_at</th>-->
-                                                <!--<th>updated_at</th>-->
+                                                <th>created_at</th>
+                                                <th>updated_at</th>
                                                 <th>Acciónes</th>
                                             </tr>
                                             </thead>
@@ -171,6 +171,7 @@
 <!-- clientes -->
 <script src="assets/js/clientes.js"></script>
 
+<!-- Rut -->
 <script src="assets/js/jquery-rut.js"></script>
 
 

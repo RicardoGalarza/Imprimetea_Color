@@ -21,13 +21,15 @@ class DireccionesController extends CI_Controller {
 		$ciudad = $this->input->post("dato_ciudad");
 		$direccion = $this->input->post("dato_direccion");
 		$numero_casa = $this->input->post("dato_numero_casa");
+		$departamento= $this->input->post("dato_departamento");
 		$agencia_preferida = $this->input->post("dato_agencia_preferida");
-		$ciudad = $this->input->post("dato_ciudad");
+		
 
 		$data = array(
             "ciudad" =>  $ciudad,
             "direccion" => $direccion,
 			"numero_casa" => $numero_casa,
+			"departamento" => $departamento,
 			"agencia_preferida" => $agencia_preferida
         );
 
